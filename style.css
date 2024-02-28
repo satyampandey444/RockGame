@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: beige;
+    background-image: url("0_3oJdSb7B26rt3xjJ.png");
+}
+body h1
+{
+    color: rgb(234, 3, 234);
+    font-size: 500%;
+    padding: 350px 0 0 0;
+    text-decoration: underline;
+}
+.btn
+{
+    color: rgb(201, 214, 12);
+    margin: 20px 20px;
+    padding: 45px 45px;
+    background-color: rgb(12, 106, 220);
+    font-size: 40px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.btn:hover
+{
+    transform:translate(20px);
+}

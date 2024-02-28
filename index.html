@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rock Paper Scissors Game.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>[ Welcome to Rock Paper Scissors Game ]</h1>
+  <button class="btn" onclick="
+  //This will generate random number between 0 and 3
+  let randomNumber = Math.random() * 3;
+  let satyam_choice;
+  if (randomNumber > 0 && randomNumber <= 1) {
+    satyam_choice = 'Rock';
+    // console.log('satyam choice is Rock');
+  } else if (randomNumber > 1 && randomNumber <= 2) {
+    satyam_choice = 'Scissors';
+    // console.log('satyam choice is Scissors');
+  } else {
+    satyam_choice = 'Paper'
+    // console.log('satyam choice is Paper');
+  }
+
+  let resultMsg;
+  if (satyam_choice === 'Scissors') {
+    resultMsg = 'You won.';
+  } else if (satyam_choice === 'Rock') {
+    resultMsg = `It's a tie`;
+  } else if (satyam_choice === 'Paper') {
+    resultMsg = 'satyam has won';
+  }
+
+  alert(`You have chosen Rock. Satyam choice is ${satyam_choice} and ${resultMsg}`);
+  
+  ">Rock</button>
+
+
+  <button class="btn" onclick="
+  //This will generate random number between 0 and 3
+  randomNumber = Math.random() * 3;
+  if (randomNumber > 0 && randomNumber <= 1) {
+    satyam_choice = 'Rock';
+    // console.log('satyam choice is Rock');
+  } else if (randomNumber > 1 && randomNumber <= 2) {
+    satyam_choice = 'Scissors';
+    // console.log('satyam choice is Scissors');
+  } else {
+    satyam_choice = 'Paper'
+    // console.log('satyam choice is Paper');
+  }
+
+  if (satyam_choice === 'Scissors') {
+    resultMsg = `It's a tie`;
+  } else if (satyam_choice === 'Rock') {
+    resultMsg = 'satyam has won';
+  } else if (satyam_choice === 'Paper') {
+    resultMsg = 'You won.';
+  }
+
+  alert(`You have chosen Scissors. satyam choice is ${satyam_choice} and ${resultMsg}`);
+  
+  ">Scissors</button>
+
+  <button class="btn" onclick="
+  //This will generate random number between 0 and 3
+  randomNumber = Math.random() * 3;
+  if (randomNumber > 0 && randomNumber <= 1) {
+    satyam_choice = 'Rock';
+    // console.log('satyam choice is Rock');
+  } else if (randomNumber > 1 && randomNumber <= 2) {
+    satyam_choice = 'Scissors';
+    // console.log('satyam choice is Scissors');
+  } else {
+    satyam_choice = 'Paper'
+    // console.log('satyam choice is Paper');
+  }
+
+  if (satyam_choice === 'Scissors') {
+    resultMsg = 'satyam has won';
+  } else if (satyam_choice === 'Rock') {
+    resultMsg = 'You won.';
+  } else if (satyam_choice === 'Paper') {
+    resultMsg = `It's a tie`;
+  }
+
+  alert(`You have chosen Paper. satyam choice is ${satyam_choice} and ${resultMsg}`);
+  
+  ">Paper</button>
+</body>
+</html>
